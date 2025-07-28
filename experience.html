@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Nafiul Khalid</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="nafiul.css">
+    <script src="experience.js"></script>
+    <link rel="icon" type="image" href="logo.png">
+</head>
+<body>
+
+    <!-------------------------------- Nav Bar -------------------------------->
+    <nav class="navbar navbar-dark bg-black fixed-top px-4">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">Nafiul Khalid</a>
+            <div class="d-flex">
+                <a class="nav-link text-white rounded shadow-sm px-3" href="index.html">Home</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="project.html">Projects</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="research.html">Research</a>
+                <a class="nav-link text-white rounded shadow-sm px-3 active" href="experience.html">Experience</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="resume.html">Resume</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="contact.html">Get in Touch</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-------------------------------- Experience Content -------------------------------->
+    
+    <!-- Banner Section -->
+    <div class="banner-container">
+        <img src="banner.png" class="banner-img" alt="Banner">
+    </div>
+
+    <!-- Profile Header Section -->
+    <div class="profile-header d-flex align-items-end justify-content-between">
+    <!-- Left: profile image + name -->
+        <div class="d-flex align-items-end">
+            <div class="profile-pic-wrapper-large me-3">
+                <img src="profilepic.png" class="profile-pic-large" alt="Profile Picture">
+            </div>
+            <div class="pb-2">
+                <h2 class="fw-bold mb-0">Nafiul Khalid</h2>
+            <small class="text-muted">ML Engineer Aspirant</small>
+        </div>
+    </div>
+
+    <!-- Right: buttons -->
+    <div class="pb-2">
+        <a href="https://www.linkedin.com/in/nafiulkhalid/" target="_blank" class="btn profile-btn me-2">
+            <i class="bi bi-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:nkhal014@fiu.edu" class="btn profile-btn">
+            <i class="bi bi-envelope-fill"></i> Email
+        </a>
+    </div>
+    </div>
+    <hr class="my-4">
+
+    <!-------------------------------- Feed Posts -------------------------------->
+
+    <section class="experience-section">
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="2025">2025</button>
+            <button class="filter-btn" data-filter="2024">2024</button>
+            <button class="filter-btn" data-filter="before">Before'24</button>
+            <button class="filter-btn" data-filter="Research">Research</button>
+            <button class="filter-btn" data-filter="Technical">Technical</button>
+            <button class="filter-btn" data-filter="Leadership">Leadership</button>
+            <button class="filter-btn" data-filter="OnCampus">Campus</button>
+        </div>
+
+        <!-- Feed Container -->
+        <div class="feed-container">
+
+            <!-- Quantum Computing Researcher – FIU -->
+            <div class="feed-item 2025 Research Technical">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Apr 2025 – Present · Miami, FL · Hybrid</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Quantum Computing Researcher – FIU</h5>
+            <p class="feed-text">
+                Worked on advanced quantum computing research focusing on Qiskit, pulse shaping, and hybrid workflows.
+            </p>
+            <img src="qgss-2.png" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2025</span>
+                <span class="keyword">Research</span>
+                <span class="keyword">Technical</span>
+            </div>
+            </div>
+
+            <!-- Teaching Intern – Miami-Dade County Public Schools -->
+            <div class="feed-item 2025 Technical">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Jan 2025 – Apr 2025 · Miami, FL · On-site</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Teaching Intern – Miami-Dade County Public Schools</h5>
+            <p class="feed-text">
+                Taught Computational Thinking and Python to a class of 21 students through INIT Ignite’s outreach program.
+            </p>
+            <img src="teaching1.png" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2025</span>
+                <span class="keyword">Technical</span>
+            </div>
+            </div>
+
+            <!-- Team Lead – INIT FIU -->
+            <div class="feed-item 2025 Leadership Technical">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Jan 2025 – Apr 2025 · Miami, FL · Hybrid</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Team Lead – INIT FIU (Web Development)</h5>
+            <p class="feed-text">
+                Led a 15-member team to build a full-stack virtual marketplace for FIU using MERN stack and CI tools.
+            </p>
+            <img src="teamlead1.jpeg" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2025</span>
+                <span class="keyword">Leadership</span>
+                <span class="keyword">Technical</span>
+            </div>
+            </div>
+
+            <!-- YourBigYear Fellow-->
+            <div class="feed-item 2025 Leadership">
+                <div class="feed-header">
+                    <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                    <div class="feed-meta">
+                        <h4>Nafiul Khalid</h4>
+                        <p>Jun 2025 – Present · Miami, FL · Remote</p>
+                    </div>
+                </div>
+                <h5 class="feed-title">YourBigYear Fellow</h5>
+                <p class="feed-text">
+                    As a Your Big Year Fellow, I participated in an intensive leadership and professional development program focused on global citizenship, networking, and social impact.
+                </p>
+                <img src="yourbigyear.png" class="feed-image" alt="Experience Image">
+                <div class="feed-keywords">
+                    <span class="keyword">All</span>
+                    <span class="keyword">2025</span>
+                    <span class="keyword">Leadership</span>
+                </div>
+            </div>
+
+            <!-- Peer Mentor – CodePath -->
+            <div class="feed-item 2025 Leadership">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>May 2025 – Present · Miami, FL · Remote</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Peer Mentor – CodePath</h5>
+            <p class="feed-text">
+                Served as a Peer Mentor at CodePath, guiding students through technical interview preparation and coding best practices.
+            </p>
+            <img src="peermentor.png" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2025</span>
+                <span class="keyword">Leadership</span>
+            </div>
+            </div>
+
+            <!-- IBM Z Student Ambassador (Tier 2) -->
+            <div class="feed-item 2025 Leadership Technical">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Apr 2025 – Jun 2025 · Miami, FL · Hybrid</p>
+                </div>
+            </div>
+            <h5 class="feed-title">IBM Z Student Ambassador (Tier 2)</h5>
+            <p class="feed-text">
+                Organized workshops, mentored peers, and advocated for IBM Z mainframe technologies on campus.
+            </p>
+            <img src="ibm-z-tier-2.png" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2025</span>
+                <span class="keyword">Leadership</span>
+                <span class="keyword">Technical</span>
+            </div>
+            </div>
+
+            <!-- IBM Z Student Ambassador (Tier 1) -->
+            <div class="feed-item 2025 Leadership Technical">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Feb 2025 – Apr 2025 · Miami, FL · Hybrid</p>
+                </div>
+            </div>
+            <h5 class="feed-title">IBM Z Student Ambassador (Tier 1)</h5>
+            <p class="feed-text">
+                Promoted IBM Z technologies, engaged students through learning initiatives, and strengthened technical skills in enterprise computing.
+            </p>
+            <img src="ibm-z-tier-1.png" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2025</span>
+                <span class="keyword">Leadership</span>
+                <span class="keyword">Technical</span>
+            </div>
+            </div>
+
+            <!-- Policy Researcher – Future of Florida Summit -->
+            <div class="feed-item 2024 Research">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Feb 2024 – Mar 2024 · Gainesville, FL · On-site</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Policy Researcher – Future of Florida Summit</h5>
+            <p class="feed-text">
+                Drafted a policy proposal on AI and privacy in period tracking apps, earning 3rd place among 10 teams.
+            </p>
+            <img src="FOF3.jpeg" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2024</span>
+                <span class="keyword">Research</span>
+            </div>
+            </div>
+
+            <!-- Student Research Assistant – University of Dhaka -->
+            <div class="feed-item 2024 Research">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Jun 2020 – Nov 2024 · Dhaka, Bangladesh · Hybrid</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Student Research Assistant – University of Dhaka</h5>
+            <p class="feed-text">
+                Assisted in research methodology, thematic analysis, and report writing for ongoing academic projects.
+            </p>
+            <img src="du-research.png" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2024</span>
+                <span class="keyword">Research</span>
+            </div>
+            </div>
+
+            <!-- Front Desk Staff – FIU -->
+            <div class="feed-item 2024 OnCampus">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Aug 2024 – Present · Miami, FL · On-site</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Front Desk Staff – FIU</h5>
+            <p class="feed-text">
+                Provided administrative and customer service support at Florida International University’s front desk.
+            </p>
+            <img src="da.png" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2024</span>
+                <span class="keyword">OnCampus</span>
+            </div>
+            </div>
+
+            <!-- Staff Reporter – PantherNOW -->
+            <div class="feed-item 2024 OnCampus">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Feb 2024 – Jun 2024 · Miami, FL · On-site</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Staff Reporter – PantherNOW</h5>
+            <p class="feed-text">
+                Wrote news articles and contributed to the student-run voice of Florida International University.
+            </p>
+            <img src="panthernow.png" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2024</span>
+                <span class="keyword">OnCampus</span>
+            </div>
+            </div>
+
+            <!-- Orientation Assistant – Shorelight -->
+            <div class="feed-item 2024 OnCampus">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Mar 2024 – May 2024 · Miami, FL · On-site</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Orientation Assistant – Shorelight</h5>
+            <p class="feed-text">
+                Guided international students through FIU’s Global First Year program, ensuring smooth onboarding and support.
+            </p>
+            <img src="orientationassistant.jpg" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">2024</span>
+                <span class="keyword">OnCampus</span>
+            </div>
+            </div>
+
+            <!-- Military Student – Mirzapur Cadet College -->
+            <div class="feed-item before Leadership">
+            <div class="feed-header">
+                <img src="profilepic.png" class="feed-pic" alt="Profile Picture">
+                <div class="feed-meta">
+                <h4>Nafiul Khalid</h4>
+                <p>Mar 2018 – Mar 2023 · Dhaka, Bangladesh</p>
+                </div>
+            </div>
+            <h5 class="feed-title">Military Student – Mirzapur Cadet College</h5>
+            <p class="feed-text">
+                Trained under military supervision, developing leadership, discipline, and responsibility over six years.
+            </p>
+            <img src="mcc.JPG" class="feed-image" alt="Experience Image">
+            <div class="feed-keywords">
+                <span class="keyword">All</span>
+                <span class="keyword">Before</span>
+                <span class="keyword">Leadership</span>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------- Footer -------------------------------->
+    <footer class="bg-dark text-center py-3 mt-5">
+        <br>
+        <p class="mb-0" style="color: aliceblue;">I appreciate your time!</p>
+        <p class="mb-0" style="color: aliceblue;">Made with <b style="color: red;">love</b>, Nafiul Khalid</p>
+        <br>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="nafiul.js"></script>
+</body>
+</html>

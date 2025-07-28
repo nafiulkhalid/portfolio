@@ -14,11 +14,12 @@
     <!-- ---------------------------------------------- Nav Bar ---------------------------------------------- -->
     <nav class="navbar navbar-dark bg-black fixed-top px-4">
         <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="/">Nafiul Khalid</a>
+            <a class="navbar-brand fw-bold" href="index.html">Nafiul Khalid</a>
             <div class="d-flex">
-                <a class="nav-link text-white rounded shadow-sm px-3" href="/">Home</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="index.html">Home</a>
                 <a class="nav-link text-white rounded shadow-sm px-3" href="project.html">Projects</a>
                 <a class="nav-link text-white rounded shadow-sm px-3 active" href="research.html">Research</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="experience.html">Experience</a>
                 <a class="nav-link text-white rounded shadow-sm px-3" href="resume.html">Resume</a>
                 <a class="nav-link text-white rounded shadow-sm px-3" href="contact.html">Get in Touch</a>
             </div>
@@ -40,7 +41,53 @@
     <!-- Publications -->
     <section class="publications-section">
         <h4>Publications:</h4>
-        <!-- Paper-2 -->
+
+        <!-- Quantum Book -->
+        <div class="container d-flex align-items-center justify-content-center mt-3">
+            <div class="publication-pdf">
+                <embed src="added1.pdf" type="application/pdf" width="400px" height="610px">
+            </div>
+        
+            <div class="publication-details ms-4">
+                <hr>
+                <p><strong>Book Title:</strong> Upcoming: Co-authoring a book on Quantum Computing</p>
+                <p><strong>Authors:</strong> Assistant Professor Aleksandr Krasnok, Ph.D. & Nafiul Khalid</p>
+                <p><strong>Publisher:</strong> Springer</p>
+                <p><strong>Page Count:</strong> 430 </p>
+                <p><strong>Place & Year of Publication:</strong> TBA</p>
+                <p><strong>ISBN:</strong> TBA</p>
+                <p><strong>DOI:</strong> TBA</p>
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                    <a target="_blank" class="researchgate-icon-link me-4">
+                        <i class="bi bi-globe"></i> Springer
+                    </a>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <!-- Quantum Paper-->
+        <div class="container d-flex align-items-center justify-content-center mt-3">
+            <div class="publication-details ms-4">
+                <hr>
+                <p><strong>Title:</strong> Upcoming: Quantum Computing Research Paper</p>
+                <p><strong>Journal:</strong> TBA</p>
+                <p><strong>Volume:</strong> TBA</p>
+                <p><strong>Issue:</strong> TBA</p>
+                <p><strong>DOI:</strong> TBA</p>
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                    <a target="_blank" class="researchgate-icon-link me-4">
+                        <i class="bi bi-globe"></i> ORCID
+                    </a>
+                </div>
+                <hr>
+            </div>
+            <div class="publication-pdf">
+                <iframe src="added2.pdf" type="application/pdf" width="400px" height="610px"></iframe>
+            </div>
+        </div>
+
+        <!-- Drone Paper -->
         <div class="container d-flex align-items-center justify-content-center mt-3">
             <div class="publication-pdf">
                 <embed src="pdf-1.pdf" type="application/pdf" width="400px" height="610px">
@@ -62,6 +109,7 @@
             </div>
         </div>
 
+        <!-- Kite Paper-->
         <div class="container d-flex align-items-center justify-content-center mt-3">
             <div class="publication-details ms-4">
                 <hr>
@@ -86,9 +134,9 @@
     <!-- Conferences -->
     <section class="conferences-section">
         <h4>Academic Conferences:</h4>
-        <div class="container d-flex align-items-center justify-content-center mt-3">
+        <div class="container d-flex flex-lg-row flex-column align-items-center justify-content-center mt-3">
             <!-- Image Slider -->
-            <div id="conferenceCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="conferenceCarousel" class="carousel slide fixed-carousel" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="poster-1.jpg" class="d-block w-100 img-fluid shadow rounded" alt="Conference Poster 1">
@@ -116,16 +164,16 @@
 
             <div class="conference-details ms-4">
                 <hr>
-                <p><strong>Florida International University Undergraduate Research Conference - 2024</strong><br>
+                <p><strong> >> Florida International University Undergraduate Research Conference - 2024</strong><br>
                     FIU, Miami, Florida<br>
                     Poster Presentation</p>
-                <p><strong>Future of Florida Summit - 2024</strong><br>
+                <p><strong> >> Future of Florida Summit - 2024</strong><br>
                     University of Florida, Gainsville, Florida<br>
                     Third-best policy proposal</p>                
-                <p><strong>International Conference on Life Sciences, Engineering and Technology (iLSET)</strong><br>
+                <p><strong> >> International Conference on Life Sciences, Engineering and Technology (iLSET)</strong><br>
                     San Francisco, California<br>
                     Accepted & Invited</p>
-                <p><strong>International Conference on Social and Education Sciences (IConSES)</strong><br>
+                <p><strong> >> International Conference on Social and Education Sciences (IConSES)</strong><br>
                     Las Vegas, Nevada<br>
                     Accepted & Invited</p>
                 <hr>
@@ -133,6 +181,51 @@
         </div>
     </section>
     
+    <!-- Experience -->
+    <section class="experience-section">
+        <h4>Research Experiences:</h4>
+        <div class="container d-flex flex-lg-row flex-column align-items-center justify-content-center mt-3">
+            <!-- Image Slider -->
+            <div id="experienceCarousel" class="carousel slide fixed-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="qgss-1.png" class="d-block w-100 img-fluid shadow rounded" alt="Qiskit Global Summer School 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="qgss-2.png" class="d-block w-100 img-fluid shadow rounded" alt="Qiskit Global Summer School 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="qgss-3.png" class="d-block w-100 img-fluid shadow rounded" alt="Qiskit Global Summer School 3">
+                    </div>
+                </div>
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#experienceCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#experienceCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="experience-details ms-4">
+                <hr>
+                <p><strong> >> Quantum Computing Research Assistant – Miami, FL</strong><br>
+                    FIU College of Engineering & Computing<br>
+                    May 2025 – Present<br>
+                    Researching pulse shaping and scheduling in photonic quantum circuits to improve quantum gate fidelity; 
+                    developing and benchmarking a custom simulation library to compare waveforms for non‑Hermitian quantum control; 
+                    co‑authoring a project and a book.</p>
+
+                <p><strong> >> Student Research Assistant</strong><br>
+                    University of Dhaka (Hybrid)<br>
+                    Jun 2020 – Nov 2024<br>
+                    Published 2 research papers and presented in 4 scientific conferences.</p>
+                <hr>
+            </div>
+        </div>
+    </section>
     
 
     <!-- ---------------------------------------------- Footer ---------------------------------------------- -->

@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
             isStarted = true;
             startText.textContent = " ";
             setTimeout(() => {
-                startText.textContent = "End";
+                startText.textContent = "Off";
             }, 3500);
 
             // Zoom in effect for the computer image
